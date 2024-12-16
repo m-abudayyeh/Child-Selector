@@ -1,0 +1,23 @@
+ div  {
+      border: 1px solid;
+      height:50px;
+      width: 50px;
+      display: inline-block;
+      }
+
+
+       div:nth-of-type(odd) { 
+        background-color: rgb(238, 255, 0);
+        margin-bottom: 20px;
+         }
+    
+
+       div:nth-of-type(even) {
+        background-color: rgb(81, 255, 0);
+        display: inline-block; 
+       }                     
+    
+   
+    
+
+
