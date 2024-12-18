@@ -1,80 +1,25 @@
-div1 {
-  display: block;
-  div {
+ span{
     display: inline-block;
-    height: 50px;
     width: 50px;
-    background-color: greenyellow;
-    margin: 5px;
-  }
-
-  div:nth-child(4) {
+    height: 50px;
     background-color: blue;
-  }
-
-  div:nth-child(5) {
-    background-color: blue;
-  }
-
-  div:nth-child(6) {
-    background-color: blue;
-  }
-
-  p {
-    display: inline;
-  }
+    content: "Hello";
+    margin: 10px;
+    
+    
+}
+ nav span:nth-child(6n + 1),
+ nav span:nth-child(6n + 2),
+ nav span:nth-child(6n + 3) {
+    background-color: green;
 }
 
-div2 {
-  display: block;
-  div {
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    background-color: blue;
-    margin: 5px;
-  }
-
-  div:nth-child(4) {
-    background-color: greenyellow;
-  }
-
-  div:nth-child(5) {
-    background-color: greenyellow;
-  }
-
-  div:nth-child(6) {
-    background-color: greenyellow;
-  }
-
-  p {
-    display: inline;
-  }
+ div span:nth-child(6n + 4),
+ div span:nth-child(6n + 5),
+ div span:nth-child(6n + 6) {
+    background-color: green;
 }
-
-div3 {
-  display: block;
-  div {
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    background-color: greenyellow;
-    margin: 5px;
-  }
-
-  div:nth-child(4) {
-    background-color: blue;
-  }
-
-  div:nth-child(5) {
-    background-color: blue;
-  }
-
-  div:nth-child(6) {
-    background-color: blue;
-  }
-
-  p {
-    display: inline;
-  }
+div{
+  position: relative;
+  
 }
